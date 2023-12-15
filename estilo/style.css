@@ -40,3 +40,17 @@ main {
     width: 237px;
     height: 415px;
 }
+
+#midias-sociais {
+    position: absolute;
+}
+
+#midias-sociais > img {
+    padding: 10px 0px;
+    display: block;
+    width: 45px;
+    position: relative;
+    border-radius: 50%;
+    top: 0vh;
+    left: 95vw;
+}
