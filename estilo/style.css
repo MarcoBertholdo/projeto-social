@@ -35,22 +35,26 @@ main {
 
 #tela {
     position: relative;
-    top: 72px;
+    top: 71px;
     left: 19px;
     width: 237px;
-    height: 415px;
+    height: 418px;
 }
 
 #midias-sociais {
-    position: absolute;
+    text-align: right;
 }
 
-#midias-sociais > img {
-    padding: 10px 0px;
-    display: block;
+#midias-sociais img {
+    margin: 10px 15px;
     width: 45px;
-    position: relative;
     border-radius: 50%;
-    top: 0vh;
-    left: 90vw;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+    box-sizing: border-box;
+}
+#midias-sociais img:hover {
+    transition-duration: 0.4s;
+    border: 2px solid rgba(255, 255, 255, 0.616);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
 }
